@@ -1,0 +1,4 @@
+2020-05-07 17:52:56,231 +0530 [main] INFO  (DemoLog4j.java:34) - this is information message
+2020-05-07 17:52:56,236 +0530 [main] ERROR (DemoLog4j.java:35) - this is error message
+2020-05-07 17:52:56,238 +0530 [main] DEBUG (DemoLog4j.java:36) - this is debug messge
+2020-05-07 17:52:56,238 +0530 [main] FATAL (DemoLog4j.java:37) - this is fatal message

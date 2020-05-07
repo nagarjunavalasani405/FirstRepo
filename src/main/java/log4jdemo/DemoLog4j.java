@@ -1,9 +1,8 @@
 package log4jdemo;
-
 import java.util.concurrent.TimeUnit;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -14,13 +13,13 @@ import org.testng.annotations.Test;
 public class DemoLog4j {
 	WebDriver driver;
 	
-     static Logger logs=LogManager.getLogger(DemoLog4j.class);
+      static Logger logs=LogManager.getLogger(DemoLog4j.class);
      
         @BeforeMethod
         
         public void setup() {
 
-    		System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromedriver.exe");
+    		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
     	    driver=new ChromeDriver();
     	    driver.manage().deleteAllCookies();
     	    driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -43,6 +42,7 @@ public class DemoLog4j {
         	String title = driver.getTitle();
         	System.out.println("the current tittle is:"+title);
         	Assert.assertEquals(title, "OrangeHRM");
+        	System.out.println("test completed");
          }
         
         @AfterMethod
