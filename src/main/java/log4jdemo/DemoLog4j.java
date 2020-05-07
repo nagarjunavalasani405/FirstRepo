@@ -29,6 +29,7 @@ public class DemoLog4j {
 
 
 		    System.out.println("this is example of log4j");
+		    System.out.println("hi this example of log4j");
 		  
 		  
 		  logs.info("this is information message");
