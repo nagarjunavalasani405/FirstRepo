@@ -26,8 +26,6 @@ public class DemoLog4j {
 
 
 		    System.out.println("this is example of log4j");
-		    System.out.println("hiii helo this example of log4j");
-		  
 		  
 		 // logs.info("this is information message");
 		  //logs.error("this is error message");
