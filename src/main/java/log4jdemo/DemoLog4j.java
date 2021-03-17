@@ -17,7 +17,7 @@ public class DemoLog4j {
         
         public void setup() {
 
-        	System.setProperty("webdriver.chrome.driver", "D:\\newchrome\\chromedriver.exe");
+        	System.setProperty("webdriver.chrome.driver", "D:\\Chrome86\\chromedriver.exe");
 	        driver = new ChromeDriver();	
     	    driver.manage().deleteAllCookies();
     	    driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
