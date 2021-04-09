@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17444" started-at="2020-10-14T13:14:01Z" finished-at="2020-10-14T13:14:18Z">
+  <suite name="Default suite" duration-ms="34190" started-at="2021-04-09T14:12:02Z" finished-at="2021-04-09T14:12:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17444" started-at="2020-10-14T13:14:01Z" finished-at="2020-10-14T13:14:18Z">
+    <test name="Default test" duration-ms="34190" started-at="2021-04-09T14:12:02Z" finished-at="2021-04-09T14:12:37Z">
       <class name="log4jdemo.DemoLog4j">
-        <test-method status="PASS" signature="setup()[pri:0, instance:log4jdemo.DemoLog4j@d8355a8]" name="setup" is-config="true" duration-ms="16012" started-at="2020-10-14T13:14:01Z" finished-at="2020-10-14T13:14:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:log4jdemo.DemoLog4j@2ac273d3]" name="setup" is-config="true" duration-ms="33096" started-at="2021-04-09T14:12:03Z" finished-at="2021-04-09T14:12:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TestCase()[pri:0, instance:log4jdemo.DemoLog4j@d8355a8]" name="TestCase" duration-ms="18" started-at="2020-10-14T13:14:17Z" finished-at="2020-10-14T13:14:17Z">
+        <test-method status="PASS" signature="TestCase()[pri:0, instance:log4jdemo.DemoLog4j@2ac273d3]" name="TestCase" duration-ms="59" started-at="2021-04-09T14:12:36Z" finished-at="2021-04-09T14:12:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:log4jdemo.DemoLog4j@d8355a8]" name="teardown" is-config="true" duration-ms="1381" started-at="2020-10-14T13:14:17Z" finished-at="2020-10-14T13:14:18Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:log4jdemo.DemoLog4j@2ac273d3]" name="teardown" is-config="true" duration-ms="973" started-at="2021-04-09T14:12:36Z" finished-at="2021-04-09T14:12:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
